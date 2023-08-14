@@ -5,7 +5,7 @@ const dotenv = require('dotenv')
 
 
 dotenv.config({ path: './config.env'})
-require('./Database/db')
+require('./database/db')
 
 app.use(express.json())
 //const User = require('../Model/userSchema')
