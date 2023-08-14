@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-require("../Database/db");
+require("../database/db");
 const User = require("../models/userSchema");
 const savedNotes = require("../models/savedNote")
 const bcrypt = require("bcrypt");
